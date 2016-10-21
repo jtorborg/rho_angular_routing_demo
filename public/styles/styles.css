@@ -1,0 +1,51 @@
+* {
+
+background-color: lightgrey;
+
+}
+
+.navbackground {
+
+height: 900px;
+width: 900px;
+
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+.navbar {
+
+  align: center;
+}
+
+.bgimage {
+
+background-image: url('../images/hoc.jpg');
+background-position: center center;
+background-size: cover;
+height: 326px;
+width:  620px;
+}
+
+
+.footerimage {
+
+background-image: url('../images/hoc.jpg');
+background-position: center center;
+background-size: cover;
+
+}
+
+p {
+
+font-size: 24px;
+
+}
+
+button {
+
+  padding: 15px;
+  margin: auto;
+}

@@ -11,30 +11,37 @@ width: 900px;
 
 }
 
-.container-fluid {
-  text-align: center;
+.container {
+width: 600px;
+padding: 0px
+margin: 0px;
 }
 
 .navbar {
 
   align: center;
+  margin: 0px;
+  padding: 0px;
+border: 0px;
+background-color: white;
+
 }
 
 .bgimage {
 
-background-image: url('../images/hoc.jpg');
+background-image: url('../images/hocwhitehouse.png');
 background-position: center center;
 background-size: cover;
-height: 326px;
-width:  620px;
+height: 650px;
 }
 
 
 .footerimage {
 
-background-image: url('../images/hoc.jpg');
-background-position: center center;
-background-size: cover;
+background-image: url('../images/fu16.png');
+background-repeat: repeat-x;
+
+
 
 }
 
@@ -48,4 +55,12 @@ button {
 
   padding: 15px;
   margin: auto;
+}
+
+.partialimages {
+margin-top: 0px;
+margin-left: 0px;
+padding-left: 0px;
+  width: 650px;
+position: absolute;
 }

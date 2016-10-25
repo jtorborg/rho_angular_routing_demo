@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title></title>
     <!-- Latest compiled and minified CSS -->
-    <!-- <link type="text/css" href="bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="vendor/bootstrap.min.css" media="screen" title="bootstrap">
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
     <!-- <script src="vendor/angular.min.js.map"></script> -->
     <script src="vendor/angular.min.js"></script>
@@ -13,25 +13,25 @@
     <script src="vendor/angular-route.min.js"></script>
     <script src="scripts/app.module.js"></script>
     <script src="scripts/app.config.js"></script>
+    <audio src="styles/HOC.mp3" autoplay></audio>
+
     <base href="/" />
 </head>
 
-<body>
-    <header class="bgimage">
+    <div class = "navbar text-center">
+      <a href="home" class="btn btn-danger" role="button">HOME</a>
+      <a href="frank" class="btn btn-primary" role="button">FRANK</a>
+      <a href="claire" class="btn btn-primary" role="button">CLAIRE</a>
+      <a href="doug" class="btn btn-primary" role="button">DOUG</a>
+    </div>
 
-    </header>
+<main class = "ng-view">
 
+</main>
 
-
-
-    <ng-view>
-
-    </ng-view>
-
-    <footer class= footerimage>
-
+    <footer class= "footerimage">
+placeholder
     </footer>
-
 </body>
 
 </html>
